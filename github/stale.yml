@@ -1,9 +1,9 @@
 # yml taken from: https://probot.github.io/apps/stale/
 
 # Number of days of inactivity before an issue/pull request becomes stale
-daysUntilStale: 3
+daysUntilStale: 1
 # Number of days of inactivity before a stale issue/pull request is closed
-daysUntilClose: 2
+daysUntilClose: 1
 # Issues/PRs with these labels will never be considered stale
 exemptLabels:
   - Label A
