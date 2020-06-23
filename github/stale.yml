@@ -1,0 +1,21 @@
+# yml taken from: https://probot.github.io/apps/stale/
+
+# Number of days of inactivity before an issue/pull request becomes stale
+daysUntilStale: 3
+# Number of days of inactivity before a stale issue/pull request is closed
+daysUntilClose: 2
+# Issues/PRs with these labels will never be considered stale
+exemptLabels:
+  - Label A
+  - Label B
+# Label to use when marking an issue/PR as stale
+staleLabel: Stale
+# Comment to post when marking an issue/pr as stale. Set to `false` to disable
+markComment: >
+  This pull request has been automatically marked as stale because it has not had
+  recent activity. It will be closed if no further activity occurs. Thank you
+  for your contributions.
+# Comment to post when closing a stale issue. Set to `false` to disable
+closeComment: >
+  This pull request has been automatically closed because it has not had recent
+  activity. Thank you.
